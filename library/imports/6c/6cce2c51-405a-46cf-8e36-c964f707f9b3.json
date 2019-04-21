@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "runLeft_3",
+    "texture": "d426bc01-7c5a-4c1b-af89-2df4efc46e7b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      148,
+      113
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      148,
+      113
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
