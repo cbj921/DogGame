@@ -9,6 +9,7 @@ const touchStandText = ["开心!","主人你要经常摸摸我哦","主人你的
                         "主人是我哒，谁都不许抢!","我...我叫...小狗几?","大狗几是谁呢?","主人你喜欢我吗?","每天都要来看我哦",
                         "要记得喂人家吃东西哦,要不然会饿饿","每天喂我一次,就送主人一句情话"];
 const touchSleepText = ["啊？主人!?","主人你来啦!","我好想你呀主人","人家刚刚做梦梦到主人了,汪","Wu~~刚刚睡醒~","汪汪汪,吓死我啦"];
+const touchEatText = [];
 
 cc.Class({
     extends: cc.Component,
@@ -43,7 +44,17 @@ cc.Class({
 
     labelActive(boolean){
         this.textBg.active = boolean;
-    }
+    },
+
+    /*eventForActive(){
+        // 对文本框进行监听，如果文本框为 active = true，则开启监听
+        let nowTime = new Date();
+        
+    },*/
+
+    onLoad(){
+        
+    },
 
 
     // update (dt) {},

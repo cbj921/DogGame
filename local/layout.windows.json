@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 360.6000061035156,
+                "height": 359.5,
                 "type": "panel",
-                "width": 306.4750061035156
+                "width": 306.2749938964844
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 360.6000061035156,
+                "height": 359.5,
                 "type": "panel",
-                "width": 306.4750061035156
+                "width": 306.2749938964844
               }
             ],
-            "height": 723.2000122070312,
+            "height": 721,
             "type": "dock-v",
-            "width": 306.4750061035156
+            "width": 306.2749938964844
           },
           {
             "children": [
@@ -43,9 +43,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 453.63751220703125,
+                "height": 453,
                 "type": "panel",
-                "width": 773.2000122070312
+                "width": 773.7000122070312
               },
               {
                 "active": 0,
@@ -53,14 +53,14 @@
                   "console",
                   "timeline"
                 ],
-                "height": 267.5625,
+                "height": 266,
                 "type": "panel",
-                "width": 773.2000122070312
+                "width": 773.7000122070312
               }
             ],
-            "height": 723.2000122070312,
+            "height": 721,
             "type": "dock-v",
-            "width": 773.2000122070312
+            "width": 773.7000122070312
           },
           {
             "active": 0,
@@ -68,9 +68,9 @@
               "inspector",
               "cocos-services"
             ],
-            "height": 723.2000122070312,
+            "height": 721,
             "type": "panel",
-            "width": 454.7124938964844
+            "width": 454.4125061035156
           }
         ],
         "type": "dock-h"

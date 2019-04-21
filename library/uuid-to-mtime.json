@@ -130,8 +130,8 @@
     "relativePath": "Scene"
   },
   "faa2159f-58e1-4101-a6d4-1e46bcc0bff8": {
-    "asset": 1555821866596,
-    "meta": 1555821866615,
+    "asset": 1555861149707,
+    "meta": 1555861149717,
     "relativePath": "Scene\\main.fire"
   },
   "cdfcdbb3-d157-4b47-a41a-a1d631411888": {
@@ -140,7 +140,7 @@
     "relativePath": "Texture\\standFrame"
   },
   "a9153bc1-9594-428f-8eb2-be462f2b9526": {
-    "asset": 1555753252474,
+    "asset": 1555816332590,
     "meta": 1555741339584,
     "relativePath": "Script"
   },
@@ -410,7 +410,7 @@
     "relativePath": "Animation\\runLeft.anim"
   },
   "5815c8d2-74bd-478f-a88a-8807cd8bf127": {
-    "asset": 1555774737673,
+    "asset": 1555815757635,
     "meta": 1555774706192,
     "relativePath": "Texture\\UI"
   },
@@ -424,14 +424,39 @@
     "meta": 1555820192425,
     "relativePath": "Script\\gameCtl.js"
   },
-  "62f46ee5-93c2-4190-9f4e-af4d642c8aef": {
-    "asset": 1555823556440,
-    "meta": 1555823557608,
-    "relativePath": "Script\\dog.js"
+  "56e26342-d114-42b8-803e-47038d0d8f32": {
+    "asset": 1555854563696,
+    "meta": 1555854563741,
+    "relativePath": "Text"
   },
   "06df0824-f1bf-45ca-8ac9-1d34cb3b4bf9": {
-    "asset": 1555823510943,
-    "meta": 1555823557609,
+    "asset": 1555858129263,
+    "meta": 1555859071123,
     "relativePath": "Script\\textLabel.js"
+  },
+  "62f46ee5-93c2-4190-9f4e-af4d642c8aef": {
+    "asset": 1555859294530,
+    "meta": 1555859299016,
+    "relativePath": "Script\\dog.js"
+  },
+  "eb9938aa-7f37-42e8-a0a4-d45068623830": {
+    "asset": 1555859546646,
+    "meta": 1555859563270,
+    "relativePath": "Texture\\food\\foodBowl.png"
+  },
+  "904851a0-fb8d-4c6f-9a51-f996dadd117f": {
+    "asset": 1555860668249,
+    "meta": 1555860668252,
+    "relativePath": "Texture\\food"
+  },
+  "852ca1ec-2bf7-44b5-a4e4-1ec8adccb960": {
+    "asset": 1555860679367,
+    "meta": 1555860712930,
+    "relativePath": "Texture\\food\\food.png"
+  },
+  "6936f427-421f-42c9-83d3-be017962884a": {
+    "asset": 1555860682809,
+    "meta": 1555860785457,
+    "relativePath": "Texture\\food\\food1.png"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "foodBowl",
+    "texture": "eb9938aa-7f37-42e8-a0a4-d45068623830",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      132,
+      82
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      82
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

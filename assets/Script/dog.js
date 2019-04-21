@@ -31,7 +31,10 @@ cc.Class({
 
     // 处理触摸狗的事件
     dogTouchFunc() {
+        this.nowTime = new Date(); // 用来记录触摸时的时间
         this.textLabel.playText(this.dogState);
+        this.labelFlag = 1; // 1 表示文本框的 active == true
+
         if (this.dogState == DOGSTATE.SLEEP) {
             this.touchInSleep();
         } else if (this.dogState == DOGSTATE.STAND) {
@@ -70,7 +73,7 @@ cc.Class({
     },
 
     touchInEat() {
-
+        
     },
 
     happyRun() { // 这里的代码可以用，但是很奇怪，需要优化 
@@ -103,6 +106,20 @@ cc.Class({
     onLoad() {
         //cc.log(this.dogAnimation);
         //this.dogAnimation.play("runRight");
+
+    },
+
+    update(dt){
+        // 以下功能用来隐藏文本框
+        if(this.labelFlag){
+            this.laterTime = new Date();
+            if(this.laterTime - this.nowTime >= 5000){
+                this.textLabel.labelActive(false);
+                this.labelFlag = 0;
+            }
+        }
+        // 到此
+
 
     },
 
