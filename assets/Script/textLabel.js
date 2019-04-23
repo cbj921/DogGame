@@ -27,6 +27,8 @@ cc.Class({
 
     playText(dogState){
         this.textBg.active = true;
+        this.labelFlag = 1; // 1 表示文本框的 active == true
+        this.nowTime = new Date(); // 用来记录触摸时的时间
         if(dogState == DOGSTATE.SLEEP){
             let length = touchSleepText.length;
             let randText = touchSleepText[Math.floor(Math.random()*length)];
@@ -57,5 +59,16 @@ cc.Class({
     },
 
 
-    // update (dt) {},
+    update (dt) {
+    // 以下功能用来隐藏文本框
+    if(this.labelFlag){
+        this.laterTime = new Date();
+        if(this.laterTime - this.nowTime >= 5000){
+            this.textBg.active = false;
+            this.labelFlag = 0;
+        }
+    }
+// 到此
+
+    },
 });

@@ -25,7 +25,7 @@
     "relativePath": "prefab"
   },
   "d44f0fe1-a814-45f7-875f-e0162e3dbbe3": {
-    "asset": 1555774708109,
+    "asset": 1555860672842,
     "meta": 1555736782751,
     "relativePath": "Texture"
   },
@@ -410,7 +410,7 @@
     "relativePath": "Animation\\runLeft.anim"
   },
   "5815c8d2-74bd-478f-a88a-8807cd8bf127": {
-    "asset": 1555815757635,
+    "asset": 1555859672305,
     "meta": 1555774706192,
     "relativePath": "Texture\\UI"
   },
@@ -425,19 +425,9 @@
     "relativePath": "Script\\gameCtl.js"
   },
   "56e26342-d114-42b8-803e-47038d0d8f32": {
-    "asset": 1555854563696,
+    "asset": 1555855125326,
     "meta": 1555854563741,
     "relativePath": "Text"
-  },
-  "06df0824-f1bf-45ca-8ac9-1d34cb3b4bf9": {
-    "asset": 1555858129263,
-    "meta": 1555859071123,
-    "relativePath": "Script\\textLabel.js"
-  },
-  "62f46ee5-93c2-4190-9f4e-af4d642c8aef": {
-    "asset": 1555859294530,
-    "meta": 1555859299016,
-    "relativePath": "Script\\dog.js"
   },
   "eb9938aa-7f37-42e8-a0a4-d45068623830": {
     "asset": 1555859546646,
@@ -445,7 +435,7 @@
     "relativePath": "Texture\\food\\foodBowl.png"
   },
   "904851a0-fb8d-4c6f-9a51-f996dadd117f": {
-    "asset": 1555860668249,
+    "asset": 1555860785425,
     "meta": 1555860668252,
     "relativePath": "Texture\\food"
   },
@@ -458,5 +448,15 @@
     "asset": 1555860682809,
     "meta": 1555860785457,
     "relativePath": "Texture\\food\\food1.png"
+  },
+  "62f46ee5-93c2-4190-9f4e-af4d642c8aef": {
+    "asset": 1555994308445,
+    "meta": 1555994310061,
+    "relativePath": "Script\\dog.js"
+  },
+  "06df0824-f1bf-45ca-8ac9-1d34cb3b4bf9": {
+    "asset": 1555994376077,
+    "meta": 1555994381859,
+    "relativePath": "Script\\textLabel.js"
   }
 }
