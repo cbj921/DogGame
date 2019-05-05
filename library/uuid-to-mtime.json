@@ -130,8 +130,8 @@
     "relativePath": "Scene"
   },
   "faa2159f-58e1-4101-a6d4-1e46bcc0bff8": {
-    "asset": 1557048837796,
-    "meta": 1557048837820,
+    "asset": 1557070541116,
+    "meta": 1557070541142,
     "relativePath": "Scene\\main.fire"
   },
   "cdfcdbb3-d157-4b47-a41a-a1d631411888": {
@@ -465,7 +465,7 @@
     "relativePath": "Script\\gameCtl.js"
   },
   "c6770f60-d66b-46aa-94ab-00eddf714fd2": {
-    "asset": 1556979126158,
+    "asset": 1557048734544,
     "meta": 1556978041656,
     "relativePath": "Texture\\loveText"
   },
@@ -514,20 +514,10 @@
     "meta": 1556979126309,
     "relativePath": "Texture\\loveText\\loveText3.png"
   },
-  "11fdacf0-6f3f-4d57-8a1c-a881f5d18c4d": {
-    "asset": 1556983884152,
-    "meta": 1556983898564,
-    "relativePath": "Script\\food.js"
-  },
   "02e71d2b-98df-4c07-a8c1-52dfaae8c1dd": {
     "asset": 1557047465705,
     "meta": 1557047479281,
     "relativePath": "Text\\loveText.json"
-  },
-  "6d525e2f-9d4c-4376-91e5-a0b2a9d2659b": {
-    "asset": 1557048000428,
-    "meta": 1557048002330,
-    "relativePath": "Script\\loveText.js"
   },
   "3c5b8f05-4a3e-4c41-b91e-63d8d9902e29": {
     "asset": 1557048734497,
@@ -553,5 +543,25 @@
     "asset": 1557048734532,
     "meta": 1557048734658,
     "relativePath": "Texture\\loveText\\loveText13.png"
+  },
+  "3eb78d00-cf80-42cf-8bfc-dd320421f411": {
+    "asset": 1557068395834,
+    "meta": 1557068396898,
+    "relativePath": "Texture\\dogHouse.png"
+  },
+  "11fdacf0-6f3f-4d57-8a1c-a881f5d18c4d": {
+    "asset": 1557069866493,
+    "meta": 1557069868106,
+    "relativePath": "Script\\food.js"
+  },
+  "6d525e2f-9d4c-4376-91e5-a0b2a9d2659b": {
+    "asset": 1557069942728,
+    "meta": 1557069946473,
+    "relativePath": "Script\\loveText.js"
+  },
+  "1f086aa9-58d0-473d-8c25-3ec546f7d517": {
+    "asset": 1557070106963,
+    "meta": 1557070114918,
+    "relativePath": "Texture\\letter.png"
   }
 }

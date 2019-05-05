@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dogHouse",
+    "texture": "3eb78d00-cf80-42cf-8bfc-dd320421f411",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      144,
+      85
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      144,
+      86
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

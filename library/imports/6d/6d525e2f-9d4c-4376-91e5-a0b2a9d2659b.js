@@ -32,6 +32,7 @@ cc.Class({
         this.fullText = this.loveTextJson.json.textData; // 得到全部的文本
         var randText = this.fullText[Math.floor(Math.random() * this.fullText.length)];
         this.mainText.string = randText;
+        cc.sys.localStorage.setItem("lastText", randText);
     },
 
 
@@ -43,6 +44,14 @@ cc.Class({
           return textData.json;
       },*/
 
+    textAppear: function textAppear() {
+        var lastText = cc.sys.localStorage.getItem("lastText");
+        if (lastText == null) {
+            lastText = "还没有解锁过情话哦。";
+        }
+        this.mainText.string = lastText;
+        this.node.position = cc.v2(0, 20);
+    },
     TextClose: function TextClose() {
         // 这个函数实现“假”关闭文本框，因为只是将文本框移出可见范围
         this.node.position = cc.v2(1500, 0);
