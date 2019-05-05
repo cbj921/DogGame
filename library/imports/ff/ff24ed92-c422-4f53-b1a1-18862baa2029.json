@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loveText6",
+    "texture": "e21df7db-5ea3-44ee-9122-c77b976a1af6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      476,
+      659
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      476,
+      659
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

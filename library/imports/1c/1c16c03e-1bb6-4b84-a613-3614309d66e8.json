@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "foodUI",
+    "texture": "76612d79-8722-43cb-838e-662ed48d0e4c",
+    "atlas": "",
+    "rect": [
+      15,
+      5,
+      89,
+      113
+    ],
+    "offset": [
+      -0.5,
+      -1.5
+    ],
+    "originalSize": [
+      120,
+      120
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

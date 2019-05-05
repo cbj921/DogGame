@@ -15,6 +15,8 @@ var touchStandText = ["开心!", "主人你要经常摸摸我哦", "主人你的
 var touchSleepText = ["啊？主人!?", "主人你来啦!", "我好想你呀主人", "人家刚刚做梦梦到主人了,汪", "Wu~~刚刚睡醒~", "汪汪汪,吓死我啦"];
 var touchEatText = [];
 
+var firstTouchText = ["你就是我的新主人吗？", "你好漂亮哦，开心！", "我忘记自己是怎么到主人手上了", "但是我记得之前好像是一个男生在养我", "他好像给我取名小狗几？", "好傻的名字哦", "不管啦，主人求抱抱~~", "mua！"];
+
 cc.Class({
     extends: cc.Component,
 
@@ -27,20 +29,25 @@ cc.Class({
     init: function init(gameCtl) {
         this.gameCtl = gameCtl;
         this.textBg.active = false;
+        this.order = 0;
     },
     playText: function playText(dogState) {
         this.textBg.active = true;
         this.labelFlag = 1; // 1 表示文本框的 active == true
         this.nowTime = new Date(); // 用来记录触摸时的时间
         if (dogState == DOGSTATE.SLEEP) {
-            var length = touchSleepText.length;
-            var randText = touchSleepText[Math.floor(Math.random() * length)];
-            this.textLabel.string = randText;
+            if (!this.firstOpenFlag) {
+                this.playNameText(touchSleepText);
+            } else {
+                this.textLabel.string = "Emmmm~~谁刚刚动我？";
+            }
         }
         if (dogState == DOGSTATE.STAND) {
-            var _length = touchStandText.length;
-            var _randText = touchStandText[Math.floor(Math.random() * _length)];
-            this.textLabel.string = _randText;
+            if (!this.firstOpenFlag) {
+                this.playNameText(touchStandText);
+            } else {
+                this.firstTouch(firstTouchText);
+            }
         }
         if (dogState == DOGSTATE.EAT) {
             this.textLabel.string = "Emmm...真好吃...";
@@ -48,18 +55,12 @@ cc.Class({
     },
     labelActive: function labelActive(boolean) {
         this.textBg.active = boolean;
+        /*if(boolean){
+            this.labelFlag = 1;
+        }*/
     },
-
-
-    /*eventForActive(){
-        // 对文本框进行监听，如果文本框为 active = true，则开启监听
-        let nowTime = new Date();
-        
-    },*/
-
-    onLoad: function onLoad() {},
-    update: function update(dt) {
-        // 以下功能用来隐藏文本框
+    labelDisappear: function labelDisappear() {
+        // 自动隐藏文本框
         if (this.labelFlag) {
             this.laterTime = new Date();
             if (this.laterTime - this.nowTime >= 5000) {
@@ -67,7 +68,31 @@ cc.Class({
                 this.labelFlag = 0;
             }
         }
-        // 到此
+    },
+    playNameText: function playNameText(textName) {
+        // 参数为传入的文本文件名
+        var length = textName.length;
+        var randText = textName[Math.floor(Math.random() * length)];
+        this.textLabel.string = randText;
+    },
+    firstTouch: function firstTouch(firstTouchText) {
+        // 播放第一次触摸的文本模式
+        this.textLabel.string = firstTouchText[this.order];
+        this.order++;
+        if (this.order == firstTouchText.length) {
+            this.firstOpenFlag = 0;
+            var nowDay = new Date();
+            cc.sys.localStorage.setItem("lastDay", nowDay);
+            //cc.log(cc.sys.localStorage.getItem("lastDay"));
+        }
+    },
+    onLoad: function onLoad() {
+        if (cc.sys.localStorage.getItem("lastDay") == null) {
+            this.firstOpenFlag = 1;
+        }
+    },
+    update: function update(dt) {
+        this.labelDisappear();
     }
 });
 

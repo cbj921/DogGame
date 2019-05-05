@@ -25,7 +25,7 @@
     "relativePath": "prefab"
   },
   "d44f0fe1-a814-45f7-875f-e0162e3dbbe3": {
-    "asset": 1555860672842,
+    "asset": 1556978046560,
     "meta": 1555736782751,
     "relativePath": "Texture"
   },
@@ -130,8 +130,8 @@
     "relativePath": "Scene"
   },
   "faa2159f-58e1-4101-a6d4-1e46bcc0bff8": {
-    "asset": 1555861149707,
-    "meta": 1555861149717,
+    "asset": 1557048837796,
+    "meta": 1557048837820,
     "relativePath": "Scene\\main.fire"
   },
   "cdfcdbb3-d157-4b47-a41a-a1d631411888": {
@@ -140,7 +140,7 @@
     "relativePath": "Texture\\standFrame"
   },
   "a9153bc1-9594-428f-8eb2-be462f2b9526": {
-    "asset": 1555816332590,
+    "asset": 1556980553990,
     "meta": 1555741339584,
     "relativePath": "Script"
   },
@@ -410,7 +410,7 @@
     "relativePath": "Animation\\runLeft.anim"
   },
   "5815c8d2-74bd-478f-a88a-8807cd8bf127": {
-    "asset": 1555859672305,
+    "asset": 1556979119250,
     "meta": 1555774706192,
     "relativePath": "Texture\\UI"
   },
@@ -419,13 +419,8 @@
     "meta": 1555815757652,
     "relativePath": "Texture\\UI\\textBg.png"
   },
-  "56f283e1-2b4a-457c-8c00-bd8e8cfd48c3": {
-    "asset": 1555820190035,
-    "meta": 1555820192425,
-    "relativePath": "Script\\gameCtl.js"
-  },
   "56e26342-d114-42b8-803e-47038d0d8f32": {
-    "asset": 1555855125326,
+    "asset": 1557034714465,
     "meta": 1555854563741,
     "relativePath": "Text"
   },
@@ -449,14 +444,114 @@
     "meta": 1555860785457,
     "relativePath": "Texture\\food\\food1.png"
   },
-  "62f46ee5-93c2-4190-9f4e-af4d642c8aef": {
-    "asset": 1555994308445,
-    "meta": 1555994310061,
-    "relativePath": "Script\\dog.js"
+  "76612d79-8722-43cb-838e-662ed48d0e4c": {
+    "asset": 1556118419219,
+    "meta": 1556118419288,
+    "relativePath": "Texture\\UI\\foodUI.png"
   },
   "06df0824-f1bf-45ca-8ac9-1d34cb3b4bf9": {
-    "asset": 1555994376077,
-    "meta": 1555994381859,
+    "asset": 1556950855919,
+    "meta": 1556950868419,
     "relativePath": "Script\\textLabel.js"
+  },
+  "62f46ee5-93c2-4190-9f4e-af4d642c8aef": {
+    "asset": 1556951110929,
+    "meta": 1556953076046,
+    "relativePath": "Script\\dog.js"
+  },
+  "56f283e1-2b4a-457c-8c00-bd8e8cfd48c3": {
+    "asset": 1556961339810,
+    "meta": 1556961364034,
+    "relativePath": "Script\\gameCtl.js"
+  },
+  "c6770f60-d66b-46aa-94ab-00eddf714fd2": {
+    "asset": 1556979126158,
+    "meta": 1556978041656,
+    "relativePath": "Texture\\loveText"
+  },
+  "189e9167-232e-4d69-99c4-c2270199f211": {
+    "asset": 1556978059558,
+    "meta": 1556978068962,
+    "relativePath": "Texture\\UI\\exit_button.png"
+  },
+  "cb018c70-c9b9-4790-8963-794fe3a361cd": {
+    "asset": 1556979126141,
+    "meta": 1556979126188,
+    "relativePath": "Texture\\loveText\\loveText8.png"
+  },
+  "e21df7db-5ea3-44ee-9122-c77b976a1af6": {
+    "asset": 1556979126140,
+    "meta": 1556979126201,
+    "relativePath": "Texture\\loveText\\loveText6.png"
+  },
+  "83f60526-7129-4d1f-99a8-550bfa2031a1": {
+    "asset": 1556979126142,
+    "meta": 1556979126227,
+    "relativePath": "Texture\\loveText\\loveText9.png"
+  },
+  "a50d22e5-3341-4d1b-9e4e-89298306456f": {
+    "asset": 1556979126142,
+    "meta": 1556979126237,
+    "relativePath": "Texture\\loveText\\loveText10.png"
+  },
+  "80a5eed7-e7a5-4092-95e2-0d2288933e5f": {
+    "asset": 1556979126142,
+    "meta": 1556979126265,
+    "relativePath": "Texture\\loveText\\loveText7.png"
+  },
+  "960b44d9-51e1-44fd-88f8-2ef46927ac59": {
+    "asset": 1556979126143,
+    "meta": 1556979126268,
+    "relativePath": "Texture\\loveText\\loveText4.png"
+  },
+  "d1e4684c-8131-4fb2-894f-912b526502e9": {
+    "asset": 1556979126143,
+    "meta": 1556979126307,
+    "relativePath": "Texture\\loveText\\loveText5.png"
+  },
+  "84249d87-d30b-4170-b453-064df9f27a13": {
+    "asset": 1556979126143,
+    "meta": 1556979126309,
+    "relativePath": "Texture\\loveText\\loveText3.png"
+  },
+  "11fdacf0-6f3f-4d57-8a1c-a881f5d18c4d": {
+    "asset": 1556983884152,
+    "meta": 1556983898564,
+    "relativePath": "Script\\food.js"
+  },
+  "02e71d2b-98df-4c07-a8c1-52dfaae8c1dd": {
+    "asset": 1557047465705,
+    "meta": 1557047479281,
+    "relativePath": "Text\\loveText.json"
+  },
+  "6d525e2f-9d4c-4376-91e5-a0b2a9d2659b": {
+    "asset": 1557048000428,
+    "meta": 1557048002330,
+    "relativePath": "Script\\loveText.js"
+  },
+  "3c5b8f05-4a3e-4c41-b91e-63d8d9902e29": {
+    "asset": 1557048734497,
+    "meta": 1557048734581,
+    "relativePath": "Texture\\loveText\\loveText11.png"
+  },
+  "731d68a9-5754-4b04-9875-5cb5f3765ee5": {
+    "asset": 1557048734530,
+    "meta": 1557048734585,
+    "relativePath": "Texture\\loveText\\loveText14.png"
+  },
+  "faba4509-38b4-447a-98c2-4a043a5ad8a2": {
+    "asset": 1557048734530,
+    "meta": 1557048734612,
+    "relativePath": "Texture\\loveText\\loveText12.png"
+  },
+  "e1e81b99-57d2-417b-86d9-2f8f5477bcc2": {
+    "asset": 1557048734532,
+    "meta": 1557048734628,
+    "relativePath": "Texture\\loveText\\loveText15.png"
+  },
+  "141c4e9d-9b96-4588-9b2f-7336e103ecb5": {
+    "asset": 1557048734532,
+    "meta": 1557048734658,
+    "relativePath": "Texture\\loveText\\loveText13.png"
   }
 }

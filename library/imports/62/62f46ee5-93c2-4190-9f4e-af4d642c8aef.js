@@ -101,6 +101,9 @@ cc.Class({
             _this2.dogState = DOGSTATE.STAND;
         }, 2 * this.duration + 0.1); // 需要等待两个 duration 才能执行
     },
+    setRandStateNum: function setRandStateNum(number) {
+        this.randStateNum = number;
+    },
     onLoad: function onLoad() {
         //cc.log(this.dogAnimation);
         //this.dogAnimation.play("runRight");

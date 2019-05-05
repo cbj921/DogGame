@@ -5,6 +5,8 @@ const DOGSTATE = cc.Enum({
     EAT: -1,
 });
 
+
+
 cc.Class({
     extends: cc.Component,
 
@@ -98,6 +100,10 @@ cc.Class({
             this.dogAnimation.play("stand");
             this.dogState = DOGSTATE.STAND;
         },2*this.duration+0.1); // 需要等待两个 duration 才能执行
+    },
+
+    setRandStateNum(number){
+        this.randStateNum = number;
     },
 
     onLoad() {

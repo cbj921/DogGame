@@ -9,15 +9,21 @@ cc.Class({
 
     properties: {
         dogScript: require("dog"),
-        textLabel: require("textLabel")
+        textLabel: require("textLabel"),
+        foodScript: require("food")
     },
 
     init: function init() {
         this.dogScript.init(this);
         this.textLabel.init(this);
+        this.foodScript.init();
+    },
+    getNewDate: function getNewDate() {
+        var nowDay = new Date();
     },
     onLoad: function onLoad() {
         this.init();
+        //cc.log(cc.sys.localStorage.getItem("asd"));
     }
 }
 
