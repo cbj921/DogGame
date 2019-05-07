@@ -10,7 +10,15 @@ cc.Class({
     properties: {
         textBg: [cc.SpriteFrame],
         loveTextJson: cc.JsonAsset,
-        mainText: cc.Label
+        mainText: cc.Label,
+        winEffect: {
+            type: cc.AudioClip,
+            default: null
+        },
+        clickEffect: {
+            type: cc.AudioClip,
+            default: null
+        }
     },
 
     popWindow: function popWindow() {
@@ -18,6 +26,7 @@ cc.Class({
         this.node.position = cc.v2(0, 20); // 这里是相对父节点的坐标系
         this.node.getComponent(cc.Sprite).spriteFrame = this.randLetter();
         this.playLoveText();
+        this.playWinEffect();
     },
     randLetter: function randLetter() {
         // 随机选择信纸
@@ -56,9 +65,11 @@ cc.Class({
         // 这个函数实现“假”关闭文本框，因为只是将文本框移出可见范围
         this.node.position = cc.v2(1500, 0);
     },
-    start: function start() {
-        //cc.log(this.textBg[1]);
-        //cc.log(this.loveTextJson.json.textData);
+    playWinEffect: function playWinEffect() {
+        cc.audioEngine.playEffect(this.winEffect);
+    },
+    playClickEffect: function playClickEffect() {
+        cc.audioEngine.playEffect(this.clickEffect);
     }
 }
 
