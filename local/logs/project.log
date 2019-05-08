@@ -1,257 +1,87 @@
-2019-05-08T10:26:44.287Z - normal: Load ~/.CocosCreator/settings.json
-2019-05-08T10:26:45.432Z - normal: Initializing Asset Database
-2019-05-08T10:26:45.448Z - normal: checking language setting...
-2019-05-08T10:26:45.448Z - normal: Language: zh
-2019-05-08T10:26:47.129Z - success: preview server running at http://localhost:7456
-2019-05-08T10:26:47.132Z - success: protocol editor-framework registered
-2019-05-08T10:26:47.132Z - success: protocol app registered
-2019-05-08T10:26:47.132Z - success: protocol theme registered
-2019-05-08T10:26:47.132Z - success: protocol packages registered
-2019-05-08T10:26:47.132Z - success: protocol uuid registerred
-2019-05-08T10:26:47.132Z - success: protocol db registerred
-2019-05-08T10:26:47.132Z - success: protocol thumbnail registerred
-2019-05-08T10:26:47.132Z - success: protocol unpack registerred
-2019-05-08T10:26:47.132Z - success: protocol disable-commonjs registerred
-2019-05-08T10:26:47.267Z - normal: connected!
-2019-05-08T10:26:47.267Z - normal: Check project D:\CocosProject\Dog
-2019-05-08T10:26:47.267Z - normal: Initializing project D:\CocosProject\Dog
-2019-05-08T10:26:47.735Z - normal: Initializing Cocos2d
-2019-05-08T10:26:48.516Z - normal: Initializing engine extends
-2019-05-08T10:26:48.632Z - success: asset-db-debugger loaded
-2019-05-08T10:26:48.632Z - success: baidu-adapter loaded
-2019-05-08T10:26:48.648Z - success: code-editor loaded
-2019-05-08T10:26:48.648Z - success: color-picker loaded
-2019-05-08T10:26:48.881Z - success: fb-audience-network loaded
-2019-05-08T10:26:48.948Z - success: fb-live-stream loaded
-2019-05-08T10:26:48.964Z - success: google-play-instant loaded
-2019-05-08T10:26:49.049Z - success: huawei-runtime loaded
-2019-05-08T10:26:49.051Z - success: jsb-adapter loaded
-2019-05-08T10:26:49.084Z - success: oppo-runtime loaded
-2019-05-08T10:26:49.101Z - success: package-manager loaded
-2019-05-08T10:26:49.509Z - success: qqplay-adapter loaded
-2019-05-08T10:26:49.509Z - success: runtime-dev-tools loaded
-2019-05-08T10:26:49.514Z - success: sdkbox loaded
-2019-05-08T10:26:49.514Z - success: tester loaded
-2019-05-08T10:26:49.529Z - success: ui-grid loaded
-2019-05-08T10:26:49.546Z - success: ui-kit-preview-extra loaded
-2019-05-08T10:26:49.546Z - success: ui-kit-preview loaded
-2019-05-08T10:26:49.546Z - success: ui-kit loaded
-2019-05-08T10:26:49.546Z - success: ui-tree loaded
-2019-05-08T10:26:49.612Z - success: vivo-runtime loaded
-2019-05-08T10:26:49.612Z - success: weapp-adapter loaded
-2019-05-08T10:26:49.660Z - success: assets loaded
-2019-05-08T10:26:49.660Z - success: builder loaded
-2019-05-08T10:26:50.217Z - success: cocos-services loaded
-2019-05-08T10:26:50.217Z - success: console loaded
-2019-05-08T10:26:50.268Z - success: fb-instant-games loaded
-2019-05-08T10:26:50.269Z - success: google-instant-games loaded
-2019-05-08T10:26:50.269Z - success: hierarchy loaded
-2019-05-08T10:26:50.269Z - success: inspector loaded
-2019-05-08T10:26:50.269Z - success: keystore loaded
-2019-05-08T10:26:50.285Z - success: node-library loaded
-2019-05-08T10:26:50.285Z - success: package-asset loaded
-2019-05-08T10:26:50.285Z - success: preferences loaded
-2019-05-08T10:26:50.285Z - success: project-exporter loaded
-2019-05-08T10:26:50.285Z - success: project-importer loaded
-2019-05-08T10:26:50.285Z - success: project-settings loaded
-2019-05-08T10:26:50.302Z - success: scene loaded
-2019-05-08T10:26:50.302Z - success: simulator-debugger loaded
-2019-05-08T10:26:50.302Z - success: sprite-editor loaded
-2019-05-08T10:26:50.302Z - success: store loaded
-2019-05-08T10:26:50.317Z - success: timeline loaded
-2019-05-08T10:26:52.063Z - normal: Loading packages
-2019-05-08T10:26:52.079Z - normal: Watching packages
-2019-05-08T10:26:52.470Z - info: Cocos Services load base data!
-2019-05-08T10:26:52.852Z - normal: Run Application
-2019-05-08T10:28:27.839Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2019-05-08T10:28:27.840Z - normal: Simulator: WORKAREA WIDTH 1528.00, HEIGHT 773.00
-2019-05-08T10:28:27.841Z - normal: Simulator: FRAME SCALE = 1.00
-2019-05-08T10:28:27.952Z - normal: Simulator: Ready for GLSL
-2019-05-08T10:28:27.952Z - normal: Simulator: Ready for OpenGL 2.0
-2019-05-08T10:28:27.952Z - normal: Simulator: Project Config:
-2019-05-08T10:28:27.953Z - normal: Simulator:     project dir: D:\CocosCreater\CocosCreator\resources\cocos2d-x\simulator\win32\
-2019-05-08T10:28:27.953Z - normal: Simulator:     writable path: $(PROJDIR)\
-2019-05-08T10:28:27.953Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2019-05-08T10:28:27.954Z - normal: Simulator:     frame size: 960 x 640
-2019-05-08T10:28:27.954Z - normal: Simulator:     frame scale: 1.00
-2019-05-08T10:28:27.955Z - normal: Simulator:     show console: NO
-2019-05-08T10:28:27.957Z - normal: Simulator:     write debug log: NO ()
-2019-05-08T10:28:27.957Z - normal: Simulator:     listen: 
-2019-05-08T10:28:27.958Z - normal: Simulator:     debugger: none
-2019-05-08T10:28:27.958Z - normal: Simulator:     add searching path:
-2019-05-08T10:28:27.958Z - normal: Simulator: 
-2019-05-08T10:28:27.958Z - normal: Simulator: 
-2019-05-08T10:28:27.958Z - normal: Simulator: 
-2019-05-08T10:28:27.958Z - normal: Simulator: resetDesignResolution request
-2019-05-08T10:28:27.959Z - normal: Simulator: ------------------------------------------------
-2019-05-08T10:28:27.959Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2019-05-08T10:28:27.959Z - normal: Simulator: ------------------------------------------------
-2019-05-08T10:28:27.959Z - normal: Simulator: D/jswrapper (368): Initializing V8, version: 6.0.286.52
-2019-05-08T10:28:28.266Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
-2019-05-08T10:28:28.269Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2019-05-08T10:28:28.269Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
-2019-05-08T10:28:28.314Z - normal: Simulator: D/jswrapper (129): JS: Enable batch GL commands optimization!
-2019-05-08T10:28:28.316Z - normal: Simulator: resetDesignResolution request
-2019-05-08T10:28:28.316Z - normal: Simulator: ------------------------------------------------
-2019-05-08T10:28:28.316Z - normal: Simulator: LOAD Js FILE: main.js
-2019-05-08T10:28:28.317Z - normal: Simulator: ------------------------------------------------
-2019-05-08T10:28:28.682Z - normal: Simulator: iShow!
-2019-05-08T10:28:28.722Z - normal: Simulator: D/jswrapper (4159): glGetIntegerv: pname: 0x8b4c
-2019-05-08T10:28:28.723Z - normal: Simulator: D/jswrapper (129): JS: Cocos Creator v2.0.9
-2019-05-08T10:28:33.031Z - normal: Simulator: D/jswrapper (418): Debugger attached.
-2019-05-08T10:28:45.136Z - normal: Simulator: D/jswrapper (452): ScriptEngine::cleanup begin ...
-2019-05-08T10:28:45.136Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 71, all objects: 150
-2019-05-08T10:28:45.187Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 71, all objects: 150
-2019-05-08T10:28:45.187Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 71, all objects: 150
-2019-05-08T10:28:45.223Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 71, all objects: 150
-2019-05-08T10:28:45.223Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (29) by GC
-2019-05-08T10:28:45.225Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (4) by GC
-2019-05-08T10:28:45.226Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (10) by GC
-2019-05-08T10:28:45.226Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (27) by GC
-2019-05-08T10:28:45.226Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (52) by GC
-2019-05-08T10:28:45.226Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (1) by GC
-2019-05-08T10:28:45.226Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (14) by GC
-2019-05-08T10:28:45.226Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (2) by GC
-2019-05-08T10:28:45.227Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (3) by GC
-2019-05-08T10:28:45.227Z - normal: Simulator: D/jswrapper (270): Destroy WebGLBuffer (4) by GC
-2019-05-08T10:28:45.227Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (28) by GC
-2019-05-08T10:28:45.227Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (2) by GC
-2019-05-08T10:28:45.227Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (1) by GC
-2019-05-08T10:28:45.228Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (42) by GC
-2019-05-08T10:28:45.228Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (3) by GC
-2019-05-08T10:28:45.228Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (24) by GC
-2019-05-08T10:28:45.228Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (5) by GC
-2019-05-08T10:28:45.228Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (6) by GC
-2019-05-08T10:28:45.228Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (33) by GC
-2019-05-08T10:28:45.229Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (13) by GC
-2019-05-08T10:28:45.229Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (7) by GC
-2019-05-08T10:28:45.229Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (8) by GC
-2019-05-08T10:28:45.229Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (12) by GC
-2019-05-08T10:28:45.229Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (9) by GC
-2019-05-08T10:28:45.230Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (11) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (15) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (16) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (17) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (39) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (26) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (25) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (23) by GC
-2019-05-08T10:28:45.231Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (19) by GC
-2019-05-08T10:28:45.232Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (18) by GC
-2019-05-08T10:28:45.232Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (20) by GC
-2019-05-08T10:28:45.232Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (30) by GC
-2019-05-08T10:28:45.232Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (21) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (22) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (32) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (31) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (34) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (35) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (48) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (45) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (36) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (37) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (38) by GC
-2019-05-08T10:28:45.233Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (40) by GC
-2019-05-08T10:28:45.234Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (41) by GC
-2019-05-08T10:28:45.234Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (43) by GC
-2019-05-08T10:28:45.234Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (44) by GC
-2019-05-08T10:28:45.234Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (46) by GC
-2019-05-08T10:28:45.234Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (50) by GC
-2019-05-08T10:28:45.235Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (47) by GC
-2019-05-08T10:28:45.240Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (49) by GC
-2019-05-08T10:28:45.240Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (51) by GC
-2019-05-08T10:28:45.240Z - normal: Simulator: D/jswrapper (308): Destroy WebGLFramebuffer (1) by GC
-2019-05-08T10:28:45.240Z - normal: Simulator: D/jswrapper (327): Destroy WebGLProgram (3) by GC
-2019-05-08T10:28:45.244Z - normal: Simulator: D/jswrapper (251): Destroy WebGLTexture (53) by GC
-2019-05-08T10:28:45.244Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 0, all objects: 0
-2019-05-08T10:28:45.273Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 0, all objects: 0
-2019-05-08T10:28:45.302Z - normal: Simulator: D/jswrapper (515): ScriptEngine::cleanup end ...
-2019-05-08T10:28:45.443Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-2019-05-08T10:30:18.807Z - normal: Start building with options : {
-  "actualPlatform": "android",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "android-28",
-  "appABIs": [],
-  "appBundle": false,
-  "baidugame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "testappid",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "buildPath": "D:\\CocosProject\\Dog\\build",
-  "debug": false,
-  "dest": "D:\\CocosProject\\Dog\\build\\jsb-link",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": true,
-  "orientation": {
-    "landscapeLeft": false,
-    "landscapeRight": false,
-    "portrait": true,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.Dog",
-  "platform": "android",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "faa2159f-58e1-4101-a6d4-1e46bcc0bff8"
-  ],
-  "sourceMaps": false,
-  "startScene": "faa2159f-58e1-4101-a6d4-1e46bcc0bff8",
-  "template": "link",
-  "title": "Dog",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "fd0ed9f2-9ff0-43",
-  "zipCompressJs": true,
-  "project": "D:\\CocosProject\\Dog",
-  "projectName": "Dog",
-  "debugBuildWorker": false
-}
-2019-05-08T10:30:18.810Z - normal: Building D:\CocosProject\Dog
-2019-05-08T10:30:18.811Z - normal: Destination D:\CocosProject\Dog\build\jsb-link
-2019-05-08T10:30:19.120Z - normal: Delete D:\CocosProject\Dog\build\jsb-link\subpackages/**/*,D:\CocosProject\Dog\build\jsb-link\res/**/*,D:\CocosProject\Dog\build\jsb-link\src/**/*
-2019-05-08T10:30:22.763Z - normal: Start building assets
-2019-05-08T10:30:22.763Z - normal: Start spawn build-worker
-2019-05-08T10:30:23.605Z - normal: Finish spawn build-worker
-2019-05-08T10:30:23.605Z - normal: Start init build-worker
-2019-05-08T10:30:27.110Z - normal: Finish init build-worker
-2019-05-08T10:30:27.110Z - normal: Start build-assets in worker
-2019-05-08T10:30:27.694Z - normal: Finish build-assets in worker
-2019-05-08T10:30:27.707Z - normal: Finish building assets
-2019-05-08T10:30:27.732Z - normal: Start building plugin scripts
-2019-05-08T10:30:27.740Z - normal: Generating main.js from D:\CocosCreater\CocosCreator\resources\static\build-templates\shares\main.js
-2019-05-08T10:30:29.138Z - normal: Built to "D:\CocosProject\Dog\build\jsb-link" successfully
-2019-05-08T10:30:45.016Z - normal: Start to compile native project. Please wait...
-2019-05-08T10:30:45.016Z - normal: The log file path [ C:\Users\陈邦郡\.CocosCreator\logs\native.log ]
-2019-05-08T10:33:23.714Z - normal: Compile native project successfully.
-2019-05-08T10:35:12.250Z - info: shutdown preview server
+2019-05-08T15:40:17.231Z - normal: Load ~/.CocosCreator/settings.json
+2019-05-08T15:40:18.407Z - normal: Initializing Asset Database
+2019-05-08T15:40:18.412Z - normal: checking language setting...
+2019-05-08T15:40:18.412Z - normal: Language: zh
+2019-05-08T15:40:19.298Z - success: preview server running at http://localhost:7456
+2019-05-08T15:40:19.300Z - success: protocol editor-framework registered
+2019-05-08T15:40:19.300Z - success: protocol app registered
+2019-05-08T15:40:19.301Z - success: protocol theme registered
+2019-05-08T15:40:19.301Z - success: protocol packages registered
+2019-05-08T15:40:19.301Z - success: protocol uuid registerred
+2019-05-08T15:40:19.301Z - success: protocol db registerred
+2019-05-08T15:40:19.301Z - success: protocol thumbnail registerred
+2019-05-08T15:40:19.301Z - success: protocol unpack registerred
+2019-05-08T15:40:19.301Z - success: protocol disable-commonjs registerred
+2019-05-08T15:40:19.757Z - normal: connected!
+2019-05-08T15:40:19.760Z - normal: Check project D:\CocosProject\Dog
+2019-05-08T15:40:19.763Z - normal: Initializing project D:\CocosProject\Dog
+2019-05-08T15:40:20.388Z - normal: Initializing Cocos2d
+2019-05-08T15:40:21.363Z - normal: Initializing engine extends
+2019-05-08T15:40:21.391Z - success: asset-db-debugger loaded
+2019-05-08T15:40:21.392Z - success: baidu-adapter loaded
+2019-05-08T15:40:21.394Z - success: code-editor loaded
+2019-05-08T15:40:21.394Z - success: color-picker loaded
+2019-05-08T15:40:21.517Z - success: fb-audience-network loaded
+2019-05-08T15:40:21.606Z - success: fb-live-stream loaded
+2019-05-08T15:40:21.611Z - success: google-play-instant loaded
+2019-05-08T15:40:21.618Z - success: huawei-runtime loaded
+2019-05-08T15:40:21.620Z - success: jsb-adapter loaded
+2019-05-08T15:40:21.625Z - success: oppo-runtime loaded
+2019-05-08T15:40:21.628Z - success: package-manager loaded
+2019-05-08T15:40:21.820Z - success: qqplay-adapter loaded
+2019-05-08T15:40:21.824Z - success: runtime-dev-tools loaded
+2019-05-08T15:40:21.830Z - success: sdkbox loaded
+2019-05-08T15:40:21.835Z - success: tester loaded
+2019-05-08T15:40:21.838Z - success: ui-grid loaded
+2019-05-08T15:40:21.841Z - success: ui-kit-preview-extra loaded
+2019-05-08T15:40:21.843Z - success: ui-kit-preview loaded
+2019-05-08T15:40:21.846Z - success: ui-kit loaded
+2019-05-08T15:40:21.849Z - success: ui-tree loaded
+2019-05-08T15:40:21.856Z - success: vivo-runtime loaded
+2019-05-08T15:40:21.860Z - success: weapp-adapter loaded
+2019-05-08T15:40:21.919Z - success: assets loaded
+2019-05-08T15:40:21.922Z - success: builder loaded
+2019-05-08T15:40:22.378Z - success: cocos-services loaded
+2019-05-08T15:40:22.394Z - success: console loaded
+2019-05-08T15:40:22.457Z - success: fb-instant-games loaded
+2019-05-08T15:40:22.463Z - success: google-instant-games loaded
+2019-05-08T15:40:22.474Z - success: hierarchy loaded
+2019-05-08T15:40:22.482Z - success: inspector loaded
+2019-05-08T15:40:22.491Z - success: keystore loaded
+2019-05-08T15:40:22.499Z - success: node-library loaded
+2019-05-08T15:40:22.510Z - success: package-asset loaded
+2019-05-08T15:40:22.516Z - success: preferences loaded
+2019-05-08T15:40:22.542Z - success: project-exporter loaded
+2019-05-08T15:40:22.546Z - success: project-importer loaded
+2019-05-08T15:40:22.549Z - success: project-settings loaded
+2019-05-08T15:40:22.558Z - success: scene loaded
+2019-05-08T15:40:22.561Z - success: simulator-debugger loaded
+2019-05-08T15:40:22.563Z - success: sprite-editor loaded
+2019-05-08T15:40:22.567Z - success: store loaded
+2019-05-08T15:40:22.577Z - success: timeline loaded
+2019-05-08T15:40:24.844Z - normal: Loading packages
+2019-05-08T15:40:24.852Z - normal: Watching packages
+2019-05-08T15:40:25.760Z - normal: Run Application
+2019-05-08T15:40:26.282Z - info: Cocos Services load base data!
+2019-05-08T15:41:25.542Z - normal: Start to compile native project. Please wait...
+2019-05-08T15:41:25.542Z - normal: The log file path [ C:\Users\陈邦郡\.CocosCreator\logs\native.log ]
+2019-05-08T15:41:30.626Z - failed: Error: Compile failed. The log file path [ C:\Users\陈邦郡\.CocosCreator\logs\native.log ]
+    at ChildProcess.q (D:\CocosCreater\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:18864)
+    at ChildProcess.r.on (D:\CocosCreater\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6589)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:194:7)
+    at maybeClose (internal/child_process.js:899:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+2019-05-08T15:44:34.282Z - normal: Start to compile native project. Please wait...
+2019-05-08T15:44:34.284Z - normal: The log file path [ C:\Users\陈邦郡\.CocosCreator\logs\native.log ]
+2019-05-08T15:44:38.351Z - failed: Error: Compile failed. The log file path [ C:\Users\陈邦郡\.CocosCreator\logs\native.log ]
+    at ChildProcess.q (D:\CocosCreater\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:18864)
+    at ChildProcess.r.on (D:\CocosCreater\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6589)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:194:7)
+    at maybeClose (internal/child_process.js:899:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+2019-05-08T15:46:07.281Z - normal: Start to compile native project. Please wait...
+2019-05-08T15:46:07.281Z - normal: The log file path [ C:\Users\陈邦郡\.CocosCreator\logs\native.log ]
+2019-05-08T15:46:29.354Z - normal: Compile native project successfully.
+2019-05-08T15:47:55.224Z - info: shutdown preview server

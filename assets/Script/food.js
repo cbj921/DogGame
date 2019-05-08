@@ -51,7 +51,7 @@ cc.Class({
         //this.getHungryLevel();
 
         let nowTime  = Date.now();
-        let hungryNumber = Math.floor(((nowTime - lastFeedTime)/1000/3600) * 20);
+        let hungryNumber = Math.floor(((nowTime - lastFeedTime)/1000/3600) * 40);
         this.hungryLabel.string = 100 - hungryNumber;
         if(this.hungryLabel.string < 0){
             this.hungryLabel.string = 0;

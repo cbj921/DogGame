@@ -1,26 +1,26 @@
 window.__require = function t(e, i, n) {
-function o(a, s) {
-if (!i[a]) {
-if (!e[a]) {
-var l = a.split("/");
+function o(c, s) {
+if (!i[c]) {
+if (!e[c]) {
+var l = c.split("/");
 l = l[l.length - 1];
 if (!e[l]) {
 var r = "function" == typeof __require && __require;
 if (!s && r) return r(l, !0);
-if (c) return c(l, !0);
-throw new Error("Cannot find module '" + a + "'");
+if (a) return a(l, !0);
+throw new Error("Cannot find module '" + c + "'");
 }
 }
-var h = i[a] = {
+var h = i[c] = {
 exports: {}
 };
-e[a][0].call(h.exports, function(t) {
-return o(e[a][1][t] || t);
+e[c][0].call(h.exports, function(t) {
+return o(e[c][1][t] || t);
 }, h, h.exports, t, e, i, n);
 }
-return i[a].exports;
+return i[c].exports;
 }
-for (var c = "function" == typeof __require && __require, a = 0; a < n.length; a++) o(n[a]);
+for (var a = "function" == typeof __require && __require, c = 0; c < n.length; c++) o(n[c]);
 return o;
 }({
 dog: [ function(t, e, i) {
@@ -138,7 +138,7 @@ this.textLabel.string = "人家碗里的还没吃完哦.";
 calcHungryLevel: function() {
 var t = cc.sys.localStorage.getItem("feedFirstTime");
 null == t && (this.hungryLabel.string = 0);
-var e = Date.now(), i = Math.floor((e - t) / 1e3 / 3600 * 20);
+var e = Date.now(), i = Math.floor((e - t) / 1e3 / 3600 * 40);
 this.hungryLabel.string = 100 - i;
 this.hungryLabel.string < 0 && (this.hungryLabel.string = 0);
 },
@@ -191,6 +191,7 @@ properties: {
 textBg: [ cc.SpriteFrame ],
 loveTextJson: cc.JsonAsset,
 mainText: cc.Label,
+numberLabel: cc.Label,
 winEffect: {
 type: cc.AudioClip,
 default: null
@@ -212,9 +213,18 @@ return this.textBg[t];
 },
 playLoveText: function() {
 this.fullText = this.loveTextJson.json.textData;
-var t = this.fullText[Math.floor(Math.random() * this.fullText.length)];
-this.mainText.string = t;
-cc.sys.localStorage.setItem("lastText", t);
+var t = Math.floor(Math.random() * this.fullText.length), e = this.fullText[t];
+this.mainText.string = e;
+this.showHasPlayText(t);
+cc.sys.localStorage.setItem("lastText", e);
+},
+showHasPlayText: function(t) {
+var e = JSON.parse(cc.sys.localStorage.getItem("saveArray")), i = 0;
+null == e && (e = new Array(this.fullText.length));
+e[t] = 1;
+for (var n = 0; n < e.length; n++) 1 == e[n] && i++;
+this.numberLabel.string = i + "/" + this.fullText.length;
+cc.sys.localStorage.setItem("saveArray", JSON.stringify(e));
 },
 textAppear: function() {
 var t = cc.sys.localStorage.getItem("lastText");
@@ -242,7 +252,7 @@ SLEEP: -1,
 STAND: -1,
 RUN: -1,
 EAT: -1
-}), o = [ "开心!", "主人你要经常摸摸我哦", "主人你的手好软", "汪汪...", "主人你真好!", "爱你爱你爱你!", "好想每天都和你在一起呢", "主人是我哒，谁都不许抢!", "我...我叫...小狗几?", "大狗几是谁呢?", "主人你喜欢我吗?", "每天都要来看我哦", "要记得喂人家吃东西哦,要不然会饿饿", "每天喂我一次,就送主人一句情话" ], c = [ "啊？主人!?", "主人你来啦!", "我好想你呀主人", "人家刚刚做梦梦到主人了,汪", "Wu~~刚刚睡醒~", "汪汪汪,吓死我啦" ], a = [ "你就是我的新主人吗？", "你好漂亮哦，开心！", "我忘记自己是怎么到主人手上了", "但是我记得之前好像是一个男生在养我", "他好像给我取名小狗几？", "好傻的名字哦", "不管啦，主人求抱抱~~", "mua！" ];
+}), o = [ "开心!", "主人你要经常摸摸我哦", "主人你的手好软", "汪汪...", "主人你真好!", "爱你爱你爱你!", "好想每天都和你在一起呢", "主人是我哒，谁都不许抢!", "我...我叫...小狗几?", "大狗几是谁呢?", "主人你喜欢我吗?", "每天都要来看我哦", "要记得喂人家吃东西哦,要不然会饿饿", "每天喂我一次,就送主人一句情话" ], a = [ "啊？主人!?", "主人你来啦!", "我好想你呀主人", "人家刚刚做梦梦到主人了,汪", "Wu~~刚刚睡醒~", "汪汪汪,吓死我啦" ], c = [ "你就是我的新主人吗？", "你好漂亮哦，开心！", "我忘记自己是怎么到主人手上了", "但是我记得之前好像是一个男生在养我", "他好像给我取名小狗几？", "好傻的名字哦", "不管啦，主人求抱抱~~", "mua！" ];
 cc.Class({
 extends: cc.Component,
 properties: {
@@ -259,8 +269,8 @@ playText: function(t) {
 this.textBg.active = !0;
 this.labelFlag = 1;
 this.nowTime = new Date();
-t == n.SLEEP && (this.firstOpenFlag ? this.textLabel.string = "Emmmm~~谁刚刚动我？" : this.playNameText(c));
-t == n.STAND && (this.firstOpenFlag ? this.firstTouch(a) : this.playNameText(o));
+t == n.SLEEP && (this.firstOpenFlag ? this.textLabel.string = "Emmmm~~谁刚刚动我？" : this.playNameText(a));
+t == n.STAND && (this.firstOpenFlag ? this.firstTouch(c) : this.playNameText(o));
 t == n.EAT && (this.textLabel.string = "Emmm...真好吃...");
 },
 labelActive: function(t) {

@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.579031387566884,
-      "y": 0.579031387566884,
+      "x": 0.3820182482401549,
+      "y": 0.3820182482401549,
       "z": 1
     },
     "_quat": {
@@ -87,10 +87,10 @@
     "_level": 1,
     "_components": [
       {
-        "__id__": 67
+        "__id__": 66
       },
       {
-        "__id__": 68
+        "__id__": 67
       }
     ],
     "_prefab": null,
@@ -464,7 +464,7 @@
         "__id__": 12
       },
       {
-        "__id__": 57
+        "__id__": 56
       },
       {
         "__id__": 39
@@ -474,16 +474,16 @@
     "_level": 2,
     "_components": [
       {
-        "__id__": 66
+        "__id__": 65
       }
     ],
     "_prefab": null,
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 226,
-      "g": 96,
-      "b": 96,
+      "r": 245,
+      "g": 132,
+      "b": 132,
       "a": 255
     },
     "_contentSize": {
@@ -1806,6 +1806,9 @@
     "mainText": {
       "__id__": 45
     },
+    "numberLabel": {
+      "__id__": 54
+    },
     "winEffect": {
       "__uuid__": "62842f62-e73b-4208-9619-2de4f10b881f"
     },
@@ -1829,14 +1832,14 @@
         "__id__": 47
       },
       {
-        "__id__": 54
+        "__id__": 53
       }
     ],
     "_active": true,
     "_level": 2,
     "_components": [
       {
-        "__id__": 56
+        "__id__": 55
       },
       {
         "__id__": 42
@@ -2018,10 +2021,10 @@
     "_level": 3,
     "_components": [
       {
-        "__id__": 51
+        "__id__": 50
       },
       {
-        "__id__": 53
+        "__id__": 52
       }
     ],
     "_prefab": null,
@@ -2082,9 +2085,6 @@
     "_components": [
       {
         "__id__": 49
-      },
-      {
-        "__id__": 50
       }
     ],
     "_prefab": null,
@@ -2161,33 +2161,6 @@
     "_id": "7dBoVYtqxLwo/3sOBRGkir"
   },
   {
-    "__type__": "cc.Widget",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 48
-    },
-    "_enabled": true,
-    "alignMode": 0,
-    "_target": null,
-    "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
-    "_verticalCenter": 0,
-    "_horizontalCenter": 0,
-    "_isAbsLeft": true,
-    "_isAbsRight": true,
-    "_isAbsTop": true,
-    "_isAbsBottom": true,
-    "_isAbsHorizontalCenter": true,
-    "_isAbsVerticalCenter": true,
-    "_originalWidth": 100,
-    "_originalHeight": 40,
-    "_id": "b2pAzJqTRITYvD+Nl4mLCq"
-  },
-  {
     "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
@@ -2199,7 +2172,7 @@
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 52
+        "__id__": 51
       }
     ],
     "_N$interactable": true,
@@ -2306,11 +2279,11 @@
       "__id__": 43
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_level": 3,
     "_components": [
       {
-        "__id__": 55
+        "__id__": 54
       }
     ],
     "_prefab": null,
@@ -2324,7 +2297,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 280,
+      "width": 38.93,
       "height": 25
     },
     "_anchorPoint": {
@@ -2334,7 +2307,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -96,
+      "x": -209,
       "y": 313,
       "z": 0
     },
@@ -2363,12 +2336,12 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 54
+      "__id__": 53
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "出现过的情话可以在情书中查看",
-    "_N$string": "出现过的情话可以在情书中查看",
+    "_string": "0/40",
+    "_N$string": "0/40",
     "_fontSize": 20,
     "_lineHeight": 25,
     "_enableWrapText": true,
@@ -2420,14 +2393,14 @@
     },
     "_children": [
       {
-        "__id__": 58
+        "__id__": 57
       }
     ],
     "_active": true,
     "_level": 3,
     "_components": [
       {
-        "__id__": 63
+        "__id__": 62
       }
     ],
     "_prefab": null,
@@ -2480,21 +2453,21 @@
     "_name": "Background",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 57
+      "__id__": 56
     },
     "_children": [
       {
-        "__id__": 59
+        "__id__": 58
       }
     ],
     "_active": true,
     "_level": 2,
     "_components": [
       {
-        "__id__": 61
+        "__id__": 60
       },
       {
-        "__id__": 62
+        "__id__": 61
       }
     ],
     "_prefab": null,
@@ -2547,14 +2520,14 @@
     "_name": "Label",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 58
+      "__id__": 57
     },
     "_children": [],
     "_active": true,
     "_level": 3,
     "_components": [
       {
-        "__id__": 60
+        "__id__": 59
       }
     ],
     "_prefab": null,
@@ -2607,7 +2580,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 59
+      "__id__": 58
     },
     "_enabled": true,
     "_useOriginalSize": false,
@@ -2632,7 +2605,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 58
+      "__id__": 57
     },
     "_enabled": true,
     "_spriteFrame": {
@@ -2660,7 +2633,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 58
+      "__id__": 57
     },
     "_enabled": true,
     "alignMode": 0,
@@ -2687,17 +2660,17 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 57
+      "__id__": 56
     },
     "_enabled": true,
     "duration": 0.1,
     "zoomScale": 1.2,
     "clickEvents": [
       {
-        "__id__": 64
+        "__id__": 63
       },
       {
-        "__id__": 65
+        "__id__": 64
       }
     ],
     "_N$interactable": true,
@@ -2755,7 +2728,7 @@
     "hoverSprite": null,
     "_N$disabledSprite": null,
     "_N$target": {
-      "__id__": 58
+      "__id__": 57
     },
     "_id": "60je/cBwxB4rMUqWFVzKyh"
   },

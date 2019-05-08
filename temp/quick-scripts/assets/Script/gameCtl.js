@@ -23,7 +23,7 @@ cc.Class({
     },
     onLoad: function onLoad() {
         this.init();
-        //cc.sys.localStorage.removeItem("feedFirstTime");
+        //cc.sys.localStorage.removeItem("saveArray");
         //cc.log(cc.sys.localStorage.getItem("asd"));
     }
 }

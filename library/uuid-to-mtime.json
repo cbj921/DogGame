@@ -25,7 +25,7 @@
     "relativePath": "prefab"
   },
   "d44f0fe1-a814-45f7-875f-e0162e3dbbe3": {
-    "asset": 1557206923170,
+    "asset": 1557323238634,
     "meta": 1555736782751,
     "relativePath": "Texture"
   },
@@ -130,8 +130,8 @@
     "relativePath": "Scene"
   },
   "faa2159f-58e1-4101-a6d4-1e46bcc0bff8": {
-    "asset": 1557310046450,
-    "meta": 1557310046467,
+    "asset": 1557328721696,
+    "meta": 1557328721720,
     "relativePath": "Scene\\main.fire"
   },
   "cdfcdbb3-d157-4b47-a41a-a1d631411888": {
@@ -619,24 +619,29 @@
     "meta": 1557238757648,
     "relativePath": "AudioClip\\点击声.mp3"
   },
-  "6d525e2f-9d4c-4376-91e5-a0b2a9d2659b": {
-    "asset": 1557239321576,
-    "meta": 1557239322967,
-    "relativePath": "Script\\loveText.js"
-  },
   "0444625a-f799-4362-b786-7eadef0158f2": {
     "asset": 1557305728365,
     "meta": 1557305728425,
     "relativePath": "Animation\\bgClip.anim"
   },
-  "56f283e1-2b4a-457c-8c00-bd8e8cfd48c3": {
-    "asset": 1557310828394,
-    "meta": 1557310829632,
-    "relativePath": "Script\\gameCtl.js"
+  "a7738ffb-7045-436e-b122-f5cabcdf933a": {
+    "asset": 1557323238618,
+    "meta": 1557323238663,
+    "relativePath": "Texture\\underBg.png"
+  },
+  "6d525e2f-9d4c-4376-91e5-a0b2a9d2659b": {
+    "asset": 1557328115871,
+    "meta": 1557328117208,
+    "relativePath": "Script\\loveText.js"
   },
   "11fdacf0-6f3f-4d57-8a1c-a881f5d18c4d": {
-    "asset": 1557310898311,
-    "meta": 1557310912858,
+    "asset": 1557328368810,
+    "meta": 1557328371148,
     "relativePath": "Script\\food.js"
+  },
+  "56f283e1-2b4a-457c-8c00-bd8e8cfd48c3": {
+    "asset": 1557328401442,
+    "meta": 1557328402634,
+    "relativePath": "Script\\gameCtl.js"
   }
 }

@@ -11,6 +11,7 @@ cc.Class({
         textBg: [cc.SpriteFrame],
         loveTextJson: cc.JsonAsset,
         mainText: cc.Label,
+        numberLabel: cc.Label,
         winEffect: {
             type: cc.AudioClip,
             default: null
@@ -34,14 +35,28 @@ cc.Class({
         return this.textBg[randNumber];
     },
     playLoveText: function playLoveText() {
-        //
-        //TODD: 输出情话
-        //两个数组，一个用来存放还没出现过的文字下标，一个用来存放已经出现过的文字下标,然后将其存入缓存就行了
-        //
         this.fullText = this.loveTextJson.json.textData; // 得到全部的文本
-        var randText = this.fullText[Math.floor(Math.random() * this.fullText.length)];
+        var randSeq = Math.floor(Math.random() * this.fullText.length);
+        var randText = this.fullText[randSeq];
         this.mainText.string = randText;
+        this.showHasPlayText(randSeq); // 用来显示语句数量标签
         cc.sys.localStorage.setItem("lastText", randText);
+    },
+    showHasPlayText: function showHasPlayText(randSeq) {
+        var seqArray = JSON.parse(cc.sys.localStorage.getItem("saveArray"));
+        var num = 0;
+        if (seqArray == null) {
+            seqArray = new Array(this.fullText.length);
+        }
+        seqArray[randSeq] = 1;
+
+        for (var i = 0; i < seqArray.length; i++) {
+            if (seqArray[i] == 1) {
+                num++;
+            }
+        }
+        this.numberLabel.string = num + '/' + this.fullText.length;
+        cc.sys.localStorage.setItem("saveArray", JSON.stringify(seqArray));
     },
 
 
