@@ -33,9 +33,9 @@ cc.Class({
             // TODO:调用情话文本框输出
             this.loveText.popWindow();
             //
-            var firstTime = new Date();
-            cc.sys.localStorage.setItem("feedFirstTime", firstTime);
-            cc.sys.localStorage.setItem("hungryLevel", this.hungryLabel.string);
+            var firstTime = new Date().getTime(); // 创建一个时间戳
+            cc.sys.localStorage.setItem("feedFirstTime", firstTime); // 存储的为时间戳
+            //cc.sys.localStorage.setItem("hungryLevel",this.hungryLabel.string);
         } else {
             this.textLabelScript.labelActive(true);
             this.textLabel.string = "人家碗里的还没吃完哦.";
@@ -43,19 +43,21 @@ cc.Class({
     },
     calcHungryLevel: function calcHungryLevel() {
         // 计算饱食度
-        var lastFeedTime = new Date(cc.sys.localStorage.getItem("feedFirstTime")); // 这里的lastFeedTime 为 string 类型,要转换成object 类型
+        var lastFeedTime = cc.sys.localStorage.getItem("feedFirstTime"); // 这里的lastFeedTime 为 时间戳
         if (lastFeedTime == null) {
             this.hungryLabel.string = 0;
             //cc.log("没有获取到时间");
         };
-        this.getHungryLevel();
+        //this.getHungryLevel();
 
-        var nowTime = new Date();
+        var nowTime = Date.now();
         var hungryNumber = Math.floor((nowTime - lastFeedTime) / 1000 / 3600 * 20);
-        this.hungryLabel.string -= hungryNumber;
+        this.hungryLabel.string = 100 - hungryNumber;
         if (this.hungryLabel.string < 0) {
             this.hungryLabel.string = 0;
         }
+
+        //cc.log(lastFeedTime);
     },
     getHungryLevel: function getHungryLevel() {
         var hungry = cc.sys.localStorage.getItem("hungryLevel");

@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"stand","_duration":0.8,"sample":5,"wrapMode":"2","curveData":{"comps":{"cc.Sprite":{"spriteFrame":[{"frame":0,"value":{"__uuid__":"21kXveaqBKLrrob5fGgxMz"}},{"frame":0.2,"value":{"__uuid__":"61pUQULnhMe4tQ3JhSJQl+"}},{"frame":0.4,"value":{"__uuid__":"21kXveaqBKLrrob5fGgxMz"}},{"frame":0.6,"value":{"__uuid__":"61pUQULnhMe4tQ3JhSJQl+"}}]}}}}

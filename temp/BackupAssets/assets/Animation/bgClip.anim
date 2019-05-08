@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bgClip",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.3333333333333333,
+  "sample": 3,
+  "speed": 2,
+  "wrapMode": "54",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "605bd23c-68a4-43ac-aa5e-668fea42edfc"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "751d3512-ac76-426a-91d2-dc3d9083d14a"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "857e3dd6-3198-48e5-a8c0-49281218e331"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "fbcd426b-20d9-45d5-8bda-3ee630cbc204"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

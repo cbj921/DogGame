@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 359.5,
+                "height": 360.6000061035156,
                 "type": "panel",
                 "width": 306.07501220703125
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 359.5,
+                "height": 360.6000061035156,
                 "type": "panel",
                 "width": 306.07501220703125
               }
             ],
-            "height": 721,
+            "height": 723.2000122070312,
             "type": "dock-v",
             "width": 306.07501220703125
           },
@@ -43,7 +43,7 @@
                 "children": [
                   "scene"
                 ],
-                "height": 440.7749938964844,
+                "height": 454.38751220703125,
                 "type": "panel",
                 "width": 774.2000122070312
               },
@@ -53,12 +53,12 @@
                   "console",
                   "timeline"
                 ],
-                "height": 278.2250061035156,
+                "height": 266.8125,
                 "type": "panel",
                 "width": 774.2000122070312
               }
             ],
-            "height": 721,
+            "height": 723.2000122070312,
             "type": "dock-v",
             "width": 774.2000122070312
           },
@@ -68,7 +68,7 @@
               "inspector",
               "cocos-services"
             ],
-            "height": 721,
+            "height": 723.2000122070312,
             "type": "panel",
             "width": 454.1125183105469
           }
@@ -92,6 +92,30 @@
       "y": 88,
       "width": 517,
       "height": 540
+    },
+    "builder": {
+      "x": 592,
+      "y": 24,
+      "width": 684,
+      "height": 752
+    },
+    "preferences": {
+      "x": 384,
+      "y": 116,
+      "width": 608,
+      "height": 568
+    },
+    "project-settings": {
+      "x": 468,
+      "y": 128,
+      "width": 596,
+      "height": 559
+    },
+    "simulator-debugger": {
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 840
     }
   }
 }
